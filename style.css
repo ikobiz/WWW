@@ -1,6 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #mainDiv {
     border: 4px double black;
     width: 50%; /* Adjust the width as needed */
-    margin: 0 auto; /* This centers the div horizontally */
     text-align: center; /* This centers the text inside the div */
 }

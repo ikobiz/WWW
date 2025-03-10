@@ -19,6 +19,8 @@ function getUrl() {
         window.location.href = 'games/rock-paper-scissors/index.html';
     } else if (url.includes('snake')) {
         window.location.href = 'games/snake/index.html';
+    } else if (url.includes('minesweeper')) {
+        window.location.href = 'games/minesweeper/index.html';
     } else if (url.includes('example1')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example1 website.</p>`;
     } else if (url.includes('example2')) {

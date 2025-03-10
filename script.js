@@ -23,8 +23,8 @@ function getUrl() {
         window.location.href = 'games/minesweeper/index.html';
     } else if (url.includes('example1')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example1 website.</p>`;
-    } else if (url.includes('example2')) {
-        resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example2 website.</p>`;
+    } else if (url.includes('wdw.hackhome.dw')) {
+        window.location.href = 'wdw/hacker.html';
     } else {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a generic simulation of a 90s website.</p>`;
     }

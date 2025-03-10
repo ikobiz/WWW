@@ -33,6 +33,12 @@ function updateGame() {
             break;
     }
 
+    // Wrap the snake around the canvas edges
+    if (head.x >= canvas.width) head.x = 0;
+    if (head.x < 0) head.x = canvas.width - 20;
+    if (head.y >= canvas.height) head.y = 0;
+    if (head.y < 0) head.y = canvas.height - 20;
+
     if (head.x === food.x && head.y === food.y) {
         score += 10;
         document.getElementById('score').textContent = 'Score: ' + score;
@@ -43,7 +49,7 @@ function updateGame() {
 
     snake.unshift(head);
 
-    if (head.x < 0 || head.x >= canvas.width || head.y < 0 || head.y >= canvas.height || snakeCollision(head)) {
+    if (snakeCollision(head)) {
         clearInterval(gameLoop);
         alert('Game Over! Your score was ' + score);
     }

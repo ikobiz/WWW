@@ -1,4 +1,4 @@
 function getUrl() {
     const url = document.getElementById('urlInput').value;
-    alert('Entered URL: ' + url);
+    window.open(url, '_blank');
 }

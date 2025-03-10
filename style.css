@@ -1,6 +1,10 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* 90s font style */
+    background-color: #ffcc99; /* 90s background color */
+    color: #000000; /* Text color */
 }
 
 body {
@@ -10,7 +14,37 @@ body {
 }
 
 #mainDiv {
-    border: 4px double black;
-    width: 50%; /* Adjust the width as needed */
+    border: 3px solid #0000ff; /* 90s border style */
+    background-color: #ffffff; /* Background color */
+    width: 60%; /* Adjust the width as needed */
     text-align: center; /* This centers the text inside the div */
+    padding: 20px; /* Padding inside the div */
+    box-shadow: 5px 5px 10px #888888; /* 90s style shadow */
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* 90s font style */
+}
+
+a {
+    color: #0000ff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+button {
+    background-color: #0000ff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: 2px solid #0000ff; /* Button border */
+    padding: 10px 20px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* 90s font style */
+}
+
+button:hover {
+    background-color: #ffffff; /* Button background color on hover */
+    color: #0000ff; /* Button text color on hover */
 }

@@ -13,6 +13,8 @@ function getUrl() {
         window.location.href = 'geocities/index.html';
     } else if (url.includes('guess-the-number')) {
         window.location.href = 'games/guess-the-number/index.html';
+    } else if (url.includes('tic-tac-toe')) {
+        window.location.href = 'games/tic-tac-toe/index.html';
     } else if (url.includes('example1')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example1 website.</p>`;
     } else if (url.includes('example2')) {

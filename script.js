@@ -3,7 +3,9 @@ function getUrl() {
     const resultDiv = document.createElement('div');
     
     // Simulate different websites based on the entered URL
-    if (url.includes('example1')) {
+    if (url.includes('google')) {
+        window.location.href = 'google/index.html';
+    } else if (url.includes('example1')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example1 website.</p>`;
     } else if (url.includes('example2')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example2 website.</p>`;
@@ -12,4 +14,9 @@ function getUrl() {
     }
     
     document.body.appendChild(resultDiv);
+}
+
+function simulateSearch() {
+    const searchInput = document.getElementById('searchInput').value;
+    alert('Simulated search for: ' + searchInput);
 }

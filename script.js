@@ -5,6 +5,8 @@ function getUrl() {
     // Simulate different websites based on the entered URL
     if (url.includes('google')) {
         window.location.href = 'google/index.html';
+    } else if (url.includes('yahoo')) {
+        window.location.href = 'yahoo/index.html';
     } else if (url.includes('example1')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example1 website.</p>`;
     } else if (url.includes('example2')) {

@@ -9,6 +9,8 @@ function getUrl() {
         window.location.href = 'yahoo/index.html';
     } else if (url.includes('altavista')) {
         window.location.href = 'altavista/index.html';
+    } else if (url.includes('geocities')) {
+        window.location.href = 'geocities/index.html';
     } else if (url.includes('example1')) {
         resultDiv.innerHTML = `<p>Simulated search result for: <strong>${url}</strong></p><p>This is a simulation of Example1 website.</p>`;
     } else if (url.includes('example2')) {

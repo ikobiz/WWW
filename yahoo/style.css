@@ -35,3 +35,248 @@ a:hover {
     margin: 20px auto;
     width: 60%;
 }
+#mainDiv {
+  margin-top: 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffffff, #e0e0e0);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to bottom right, #f0f0f0, #d0d0d0);
+}
+body {
+  background: linear-gradient(to bottom right, #dbe9ff, #f0f0ff);
+}
+.domains-container {
+  padding: 20px;
+}
+
+.promo-banner {
+  background-color: #fffbe6;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.domain-search {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.domain-search input {
+  padding: 8px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.domain-search button {
+  padding: 8px 12px;
+  background-color: #336699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.domain-search button:hover {
+  background-color: #003366;
+}
+
+.domain-results {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.domain-tips {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+}
+.shoping-container {
+  padding: 20px;
+}
+
+.shoping-categories {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.shoping-list {
+  list-style: none;
+  padding: 0;
+}
+
+.shoping-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.shoping-list li:hover {
+  background-color: #f9f9f9;
+}
+
+.shoping-content {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.auctions-container {
+  padding: 20px;
+}
+
+.auction-intro {
+  background-color: #fffbe6;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.auction-categories {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.auction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.auction-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.auction-list li:hover {
+  background-color: #f9f9f9;
+}
+
+.auction-content {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.arts-container {
+  padding: 20px;
+}
+
+.arts-intro {
+  background-color: #fffbe6;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.arts-categories {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.arts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.arts-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.arts-list li:hover {
+  background-color: #f9f9f9;
+}
+
+.arts-content {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.news-container {
+  padding: 20px;
+}
+
+.news-headlines {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.news-list li:hover {
+  background-color: #f9f9f9;
+}
+
+.news-content {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}

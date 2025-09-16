@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yahoo! Auctions - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Yahoo! Auctions</h1>
+  </header>
+
+  <main class="auctions-container">
+    <section class="auction-intro">
+      <h2>🛎️ Bid, Buy, or Sell Anything!</h2>
+      <p>Welcome to the wild world of online auctions. Find rare collectibles, vintage tech, and more!</p>
+    </section>
+
+    <section class="auction-categories">
+      <h3>📦 Categories</h3>
+      <ul class="auction-list">
+        <li onclick="showAuction('tech')">💻 Vintage Tech</li>
+        <li onclick="showAuction('toys')">🧸 Toys & Games</li>
+        <li onclick="showAuction('music')">🎵 Music & CDs</li>
+        <li onclick="showAuction('rickroll')">🎁 Mystery Box</li>
+      </ul>
+    </section>
+
+    <section id="auction-content" class="auction-content">
+      <p>Select a category to view current listings.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2002 Yahoo! Auctions | <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

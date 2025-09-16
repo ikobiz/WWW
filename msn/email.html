@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AOL Mail - Inbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AOL Mail</h1>
+  </header>
+
+  <main class="email-container">
+    <section class="inbox">
+      <h2>📬 Inbox</h2>
+      <ul class="email-list">
+        <li onclick="openEmail('rickroll')">🎵 From: Unknown - "You've Got to See This!"</li>
+        <li onclick="openEmail('mom')">👩 From: Mom - "Dinner Plans"</li>
+        <li onclick="openEmail('boss')">💼 From: Boss - "Meeting Rescheduled"</li>
+        <li onclick="openEmail('newsletter')">📰 From: AOL News - "Top Headlines Today"</li>
+      </ul>
+    </section>
+
+    <section id="email-content" class="email-content">
+      <p>Select an email to read.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2002 AOL Mail | <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

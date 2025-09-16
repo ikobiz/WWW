@@ -25,14 +25,11 @@ function getUrl() {
         window.location.href = 'wdw/hacker.html';
     } else if (url.includes('aol')) {
         window.location.href = 'AOL/index.html';
+    } else if (url.includes('msn')) {
+        window.location.href = 'msn/index.html';    
     } else {
         resultDiv.innerHTML = `<p>Url not found: <strong>${url}</strong></p>`;
     }
     
     document.body.appendChild(resultDiv);
-}
-
-function simulateSearch() {
-    const searchInput = document.getElementById('searchInput').value;
-    alert('Simulated search for: ' + searchInput);
 }

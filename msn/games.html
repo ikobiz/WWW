@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MSN Games - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>MSN Games</h1>
+    </header>
+
+    <main class="games-section">
+      <section class="game-menu">
+        <h2>🎮 Choose a Game</h2>
+        <ul class="game-list">
+          <li onclick="launchGame('snake')">🐍 Snake</li>
+          <li onclick="launchGame('minesweeper')">💣 Minesweeper</li>
+          <li onclick="launchGame('tic-tac-toe')">❌⭕ Tic-Tac-Toe</li>
+          <li onclick="launchGame('guess')">🔢 Guess the Number</li>
+          <li onclick="launchGame('rps')">✊✋✌️ Rock-Paper-Scissors</li>
+          <li onclick="launchGame('rickroll')">🎁 Mystery Game</li>
+        </ul>
+      </section>
+
+      <section id="game-content" class="game-content">
+        <p>Select a game to begin playing.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 MSN Games | <a href="#">Privacy Policy</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

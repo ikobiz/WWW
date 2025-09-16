@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MSN Weather - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>MSN Weather</h1>
+    </header>
+
+    <main class="weather-section">
+      <section class="weather-cities">
+        <h2>🌦️ Select a City</h2>
+        <ul class="city-list">
+          <li onclick="showWeather('seattle')">🌧️ Seattle, WA</li>
+          <li onclick="showWeather('newyork')">🌤️ New York, NY</li>
+          <li onclick="showWeather('losangeles')">☀️ Los Angeles, CA</li>
+          <li onclick="showWeather('chicago')">🌬️ Chicago, IL</li>
+          <li onclick="showWeather('rickroll')">🎁 Mystery Forecast</li>
+        </ul>
+      </section>
+
+      <section id="weather-content" class="weather-content">
+        <p>Select a city to view the current forecast.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 MSN Weather | <a href="#">Privacy Policy</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

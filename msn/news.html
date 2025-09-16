@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MSN News - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>MSN News</h1>
+    </header>
+
+    <main class="news-section">
+      <section class="top-headlines">
+        <h2>📰 Top Headlines</h2>
+        <ul class="news-list">
+          <li onclick="showNews('broadband')">🚀 Microsoft Launches High-Speed MSN Broadband</li>
+          <li onclick="showNews('messenger')">💬 MSN Messenger Gets New Emojis</li>
+          <li onclick="showNews('celebs')">🌟 Celebrities Join MSN Chat Rooms</li>
+          <li onclick="showNews('rickroll')">🎶 Mysterious Link Circulates Among Users</li>
+        </ul>
+      </section>
+
+      <section id="news-content" class="news-content">
+        <p>Select a headline to read the full story.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 Microsoft Network | <a href="#">Privacy Policy</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

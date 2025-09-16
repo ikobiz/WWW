@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AOL Finance - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AOL Finance</h1>
+  </header>
+
+  <main class="finance-container">
+    <section class="finance-headlines">
+      <h2>💰 Market Headlines</h2>
+      <ul class="finance-list">
+        <li onclick="showFinanceStory('nasdaq')">📈 NASDAQ Surges Amid Tech Rally</li>
+        <li onclick="showFinanceStory('aol')">🧾 AOL Time Warner Posts Quarterly Gains</li>
+        <li onclick="showFinanceStory('dotcom')">🌐 Dot-Com Recovery Signals New Boom</li>
+        <li onclick="showFinanceStory('rickroll')">💸 Mysterious Investment Tip Goes Viral</li>
+      </ul>
+    </section>
+
+    <section id="finance-content" class="finance-content">
+      <p>Select a headline to read the full story.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2002 AOL Finance | <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

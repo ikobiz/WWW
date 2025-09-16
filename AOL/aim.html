@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AIM - AOL Instant Messenger</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AIM Buddy List</h1>
+  </header>
+
+  <main class="aim-container">
+    <section class="buddy-list">
+      <h2>👥 Buddies</h2>
+      <ul>
+        <li onclick="openChat('coolkid')">🟢 CoolKid123</li>
+        <li onclick="openChat('sk8rboi')">🟡 Sk8rBoi88</li>
+        <li onclick="openChat('rick')">🔴 RickRollMaster</li>
+        <li onclick="openChat('offline')">⚫ OfflineFriend</li>
+      </ul>
+    </section>
+
+    <section id="chat-window" class="chat-window">
+      <p>Select a buddy to start chatting.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2002 AOL Instant Messenger | <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

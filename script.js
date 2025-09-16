@@ -23,6 +23,8 @@ function getUrl() {
         window.location.href = 'games/minesweeper/index.html';
     } else if (url.includes('wdw.hackhome.dw')) {
         window.location.href = 'wdw/hacker.html';
+    } else if (url.includes('aol')) {
+        window.location.href = 'AOL/index.html';
     } else {
         resultDiv.innerHTML = `<p>Url not found: <strong>${url}</strong></p>`;
     }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Books - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>Amazon Books</h1>
+    </header>
+
+    <main class="books-section">
+      <section class="book-genres">
+        <h2>📚 Browse by Genre</h2>
+        <ul class="genre-list">
+          <li onclick="showBooks('fiction')">📖 Fiction</li>
+          <li onclick="showBooks('nonfiction')">📘 Non-Fiction</li>
+          <li onclick="showBooks('fantasy')">🧙 Fantasy</li>
+          <li onclick="showBooks('tech')">💻 Tech & Computing</li>
+        </ul>
+      </section>
+
+      <section id="book-content" class="book-content">
+        <p>Select a genre to view featured titles.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 Amazon.com | <a href="#">Privacy Policy</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

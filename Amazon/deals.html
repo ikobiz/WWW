@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Deals - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>Amazon Deals</h1>
+    </header>
+
+    <main class="deals-section">
+      <section class="deal-categories">
+        <h2>🔥 Today's Top Deals</h2>
+        <ul class="deal-list">
+          <li onclick="showDeal('tech')">💻 Tech & Electronics</li>
+          <li onclick="showDeal('books')">📚 Books & Media</li>
+          <li onclick="showDeal('home')">🏠 Home Essentials</li>
+          <li onclick="showDeal('toys')">🧸 Toys & Games</li>
+        </ul>
+      </section>
+
+      <section id="deal-content" class="deal-content">
+        <p>Select a category to view featured discounts.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 Amazon.com | <a href="#">Privacy Policy</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon.com - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>Amazon.com</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Toys</a></li>
+          <li><a href="#">Deals</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="amazon-main">
+      <section class="search-bar">
+        <form onsubmit="searchAmazon(event)">
+          <input type="text" id="searchInput" placeholder="Search Amazon...">
+          <button type="submit">Go</button>
+        </form>
+      </section>
+
+      <section class="featured-products">
+        <h2>📦 Featured Deals</h2>
+        <ul>
+          <li>📘 "The Fellowship of the Ring" - $8.99</li>
+          <li>💻 Gateway 2000 Laptop - $799.00</li>
+          <li>🎧 Britney Spears CD - $12.99</li>
+          <li>🧸 LEGO Bionicle Set - $24.99</li>
+        </ul>
+      </section>
+
+      <section id="search-results" class="search-results">
+        <p>Start typing to search for products.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 Amazon.com | <a href="#">Privacy Policy</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

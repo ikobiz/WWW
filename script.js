@@ -26,7 +26,9 @@ function getUrl() {
     } else if (url.includes('aol')) {
         window.location.href = 'AOL/index.html';
     } else if (url.includes('msn')) {
-        window.location.href = 'msn/index.html';    
+        window.location.href = 'msn/index.html';   
+    } else if (url.includes('amazon')) {
+        window.location.href = 'amazon/index.html';     
     } else {
         resultDiv.innerHTML = `<p>Url not found: <strong>${url}</strong></p>`;
     }

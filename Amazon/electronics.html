@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Electronics - 2002</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>Amazon Electronics</h1>
+    </header>
+
+    <main class="electronics-section">
+      <section class="electronics-categories">
+        <h2>🔌 Shop by Category</h2>
+        <ul class="electronics-list">
+          <li onclick="showElectronics('computers')">💻 Computers</li>
+          <li onclick="showElectronics('audio')">🎧 Audio & Music</li>
+          <li onclick="showElectronics('video')">📺 TVs & Video</li>
+          <li onclick="showElectronics('gadgets')">🕹️ Gadgets & Accessories</li>
+        </ul>
+      </section>
+
+      <section id="electronics-content" class="electronics-content">
+        <p>Select a category to view featured products.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2002 Amazon.com | <a href="#">Privacy Policy</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
